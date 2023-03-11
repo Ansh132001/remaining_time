@@ -7,7 +7,7 @@ import { pakob64Deflate, pakob64Inflate } from './utils/pakob64'
 import { now } from './utils'
 import { InstLogType } from './updater'
 
-const cutoffDt = 300
+const cutoffDt = 0
 const historyDecay = 1 / 1.005
 const historyLength = 100
 
